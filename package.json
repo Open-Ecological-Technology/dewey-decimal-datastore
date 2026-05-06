@@ -1,0 +1,17 @@
+{
+  "name": "dewey-decimal-datastore",
+  "version": "0.0.0",
+  "description": "Dewey Decimal Datastore",
+  "author": "Open Ecological Technology",
+  "license": "CC-BY-SA-4.0",
+  "packageManager": "npm",
+  "workspaces": [
+    "./packages/*",
+    "./packages/@*/*"
+  ],
+  "m30pm": {
+    "versionControlTool": "git",
+    "buildTool": "gradle",
+    "loggingLevel": "error"
+  }
+}
