@@ -9,9 +9,13 @@
     "./packages/*",
     "./packages/@*/*"
   ],
+  "repository": "https://github.com/Open-Ecological-Technology/dewey-decimal-datastore.git",
   "m30pm": {
     "versionControlTool": "git",
     "buildTool": "gradle",
     "loggingLevel": "error"
+  },
+  "dependencies": {
+    "@rse/nunjucks-cli": "^1.5.3"
   }
 }
