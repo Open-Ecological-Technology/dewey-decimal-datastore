@@ -1,0 +1,19 @@
+id: https://w3id.org/linkml/examples/personinfo
+name: dewey-decimal-schema
+title: Dewey Decimal Schema
+description: |-
+  Schema for storing books using the dewey decimal system
+prefixes:
+  linkml: https://w3id.org/linkml/examples/personinfo
+imports:
+  - linkml:types
+default_range: string
+
+classes:
+  Container:
+    tree_root: true
+    slots:
+    - titile
+    - last_name
+    - first_name
+    - isbn
